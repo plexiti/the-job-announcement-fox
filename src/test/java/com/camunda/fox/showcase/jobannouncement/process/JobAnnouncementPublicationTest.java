@@ -1,6 +1,6 @@
 package com.camunda.fox.showcase.jobannouncement.process;
 import static com.camunda.fox.showcase.jobannouncement.process.ProcessConstants.*;
-import static com.plexiti.activiti.test.ActivitiFestConditions.*;
+import static com.plexiti.activiti.test.fluent.ActivitiFestConditions.*;
 import static org.fest.assertions.Assertions.*;
 import static org.mockito.Matchers.*;
 import static org.mockito.Mockito.*;
@@ -11,8 +11,8 @@ import org.mockito.Mock;
 
 import com.camunda.fox.showcase.jobannouncement.model.JobAnnouncement;
 import com.camunda.fox.showcase.jobannouncement.service.JobAnnouncementService;
-import com.plexiti.activiti.test.TestProcessInstance;
-import com.plexiti.activiti.test.mocking.ActivitiMockitoTest;
+import com.plexiti.activiti.test.fluent.TestProcessInstance;
+import com.plexiti.activiti.test.fluent.mocking.ActivitiMockitoTest;
 import com.plexiti.helper.Entities;
 
 public class JobAnnouncementPublicationTest extends ActivitiMockitoTest {

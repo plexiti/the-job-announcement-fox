@@ -107,25 +107,12 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.8.2</version>
-			<scope>test</scope>
-		</dependency>
-   		<dependency>
-   			<groupId>org.easytesting</groupId>
-   			<artifactId>fest-assert</artifactId>
-   			<version>${fest.assert.version}</version>
-   			<scope>test</scope>
-   		</dependency>
-		<dependency>
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-all</artifactId>
-			<version>1.9.0</version>
-			<scope>test</scope>
-		</dependency>
+        <dependency>
+            <groupId>com.plexiti.activiti</groupId>
+            <artifactId>activiti-fluent-tests</artifactId>
+            <version>0.1</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
@@ -212,6 +199,17 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
+        <repository>
+            <id>plexiti-public-releases</id>
+            <name>plexiti Public Releases Repository</name>
+            <url>https://nexus.schimak.at/nexus/content/repositories/plexiti-public-releases/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
         <repository>
             <id>apache-releases</id>
             <url>https://repository.apache.org/content/repositories/releases/</url>

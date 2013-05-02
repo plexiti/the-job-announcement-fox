@@ -1,6 +1,6 @@
 # Howdy! We've migrated!
 
-The Job Announcement was initially built for the camunda fox BPM Platform. On [Monday March 18th, 2013](http://camundabpm.blogspot.de/2013/03/camunda-forks-activiti-and-launches.html), camunda open-sourced camunda fox calling it the [camunda BPM Platform](http://www.camunda.org). So, of course, we have migrated The Job Announcement and it is now available on this GitHub repository: [https://github.com/plexiti/the-job-announcement](https://github.com/plexiti/the-job-announcement). *Please note that all further development of this showcase will happen on the new repository!*
+The Job Announcement was initially built for the camunda fox BPM Platform. On [Monday March 18th, 2013](http://camundabpm.blogspot.de/2013/03/camunda-forks-activiti-and-launches.html), camunda open-sourced camunda fox calling it the [camunda BPM Platform](http://www.camunda.org). So, of course, we have migrated **The Job Announcement and it is now available on this GitHub repository: [https://github.com/plexiti/the-job-announcement](https://github.com/plexiti/the-job-announcement)**. *Please note that all further development of this showcase will happen on the new repository!*
 
 # Introduction
 
